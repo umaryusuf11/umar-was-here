@@ -1,0 +1,1 @@
+{"code":{"typescript":{"value":"function isPalindrome(str: string): boolean {\r\n    let reversed = '';\r\n\r\n    for (let char of str){\r\n        reversed = char + reversed;\r\n    }\r\n\r\n    return reversed === str;\r\n}\r\n\r\nconsole.log(isPalindrome(\"racecar\"))\r\nconsole.log(isPalindrome(\"wytuy;wfy\"))\r\n"}},"language":"typescript"}
